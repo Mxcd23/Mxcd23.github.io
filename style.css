@@ -1,0 +1,63 @@
+#baner{
+    background-color: rgb(39, 39, 39);
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+
+#menu{
+    width: 20%;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    height: 400px;
+    float: left;
+}
+
+#p_srodkowy{
+    width: 80%;
+    background-color: gray;
+    color: white;
+    height: 400px;
+    float: right;
+}
+
+#p_srodkowy > p{
+    margin-left: 15px;
+    padding: 10px;
+}
+
+#p_srodkowy > h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+#stopka{
+    height: 20px;
+    background-color: black;
+    color: white;
+    clear: both;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    width: 100px;
+    background-color: rgb(141, 141, 141);
+    padding: 10px;
+    margin-top: 20px;
+    border: 3px black solid;
+    display: block;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover{
+    background-color: rgb(121, 121, 121);
+}
